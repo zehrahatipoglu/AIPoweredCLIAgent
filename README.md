@@ -27,8 +27,8 @@ Proje aynı zamanda klasik **FizzBuzz algoritması** ile örnek bir JavaScript k
 ```
 go run main.go
 ```
+<img width="797" height="253" alt="Ekran görüntüsü 2025-08-02 024714" src="https://github.com/user-attachments/assets/e9e9ac5e-32cc-4da4-9742-6f3f43140c7e" />
 
-<img width="797" height="253" alt="Ekran görüntüsü 2025-08-02 024714" src="https://github.com/user-attachments/assets/2edb879f-19fe-4696-832e-717f4de8b023" />
 
 <img width="449" height="209" alt="Ekran görüntüsü 2025-08-03 011329" src="https://github.com/user-attachments/assets/a61b7b9a-b63a-435b-901c-068bf4f35c54" />
 
