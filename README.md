@@ -24,9 +24,32 @@ Proje aynı zamanda klasik **FizzBuzz algoritması** ile örnek bir JavaScript k
 
 ---
 
+Çalışma Akışı:
+
+1. OpenAI API anahtarını ortam değişkeninden alır (OPENAI_API_KEY).
+
+2. Kullanıcıdan terminal üzerinden metin komutu alır.
+
+3. Bu komutu, önceki konuşma geçmişiyle birlikte OpenAI API’sine gönderir.
+
+4. Model, eğer ihtiyaç duyarsa bir tool call (fonksiyon çağrısı) yapar.
+   
+  Tanımlı araçlar:
+
+  * read_file → Dosya içeriğini okur.
+
+  * list_files → Dizin içeriğini listeler.
+
+  * edit_file → Dosya düzenler veya oluşturur.
+
+5. Tool çağrısı gelirse ilgili fonksiyon çalışır ve sonucu tekrar modele gönderilir.
+
+6. Modelin ürettiği nihai cevap terminalde kullanıcıya gösterilir.
+
 ```
 go run main.go
 ```
+
 <img width="797" height="253" alt="Ekran görüntüsü 2025-08-02 024714" src="https://github.com/user-attachments/assets/e9e9ac5e-32cc-4da4-9742-6f3f43140c7e" />
 
 
